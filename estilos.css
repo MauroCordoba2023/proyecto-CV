@@ -1,0 +1,313 @@
+body { 
+       background-color: #cec7c73f;
+       
+}
+
+header, section, #seccion2, footer {
+    width: 960px;
+}
+
+header {
+    height: 250px;
+	margin-right: auto;
+    margin-left: auto; 
+    background-color: #d9d9d9;
+}
+
+section {
+    height: 700px;
+	margin-right: auto;
+    margin-left: auto;
+    background-color: #d9d9d9;
+}
+
+#seccion2 {
+    height: auto;
+    background-color: #d9d9d9;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#carouselExampleCaptions, #carouselExampleCaptions1 {
+    width: 450px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 18px;
+    display: inline-block;
+}
+
+h5, h6 {
+    background-color: black;
+}
+
+footer {
+    height: 300px;
+	margin-right: auto;
+    margin-left: auto;
+    background-color: #d9d9d9;
+}
+
+#imagen {
+    width: 180px;
+    height: 180px;
+   margin: 20px;
+   border-radius: 50%;
+   float: inline-end;
+}
+
+#nombre {
+    width: 700px;
+    height: auto;
+    float: left;
+    margin: 20px;
+}
+
+#titulo1 {
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3,h4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulos {
+    width: 750px;
+    height: 50px;
+    background-color: rgba(77, 73, 73, 0.795);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 100px; 
+}
+
+.card, .accordion {
+    width: 70%;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+#caja1 {
+    width: 90px;
+    height: 200px;
+    padding: 5px;
+    margin-top: 28px;
+    margin-left: 250px;
+    float: left;
+}
+
+#caja2 {
+    width: 500px;
+    height: 200px;
+    padding: 5px;
+    margin: 10px 10px;
+    float: left;
+}
+
+.list-group {
+    width: 80%;
+    margin-top: 20px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;  
+}
+
+ .iconos{
+    width: 60px;
+    border-radius: 80%;
+    display:block;
+    margin-top: 2px;  
+}
+
+/*responsive @media 600 a 1023px */
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+    header, footer, section, #seccion2 {
+        width: 580px;   
+    }
+
+    header {
+        height: 550px;
+    }
+    
+    section {
+        height: 900px;
+    }
+    
+    #seccion2 {
+        height: auto;
+    }
+    
+    #carouselExampleCaptions, #carouselExampleCaptions1 {
+        width: 450px;
+        margin-top: 30px;
+        margin-left: 65px;
+    }
+    
+    footer {
+        height: 300px;
+    }
+    
+    #nombre {
+        width: 500px;
+    }
+    
+    .titulos {
+        width: 500px;
+        margin-left: 40px; 
+    }
+    
+    .card, .accordion {
+        width: 70%;
+        margin-left: 90px; 
+    }
+    
+    .card {
+        margin-bottom: 20px;
+    }
+    
+    #caja1 {
+        width: 90px;
+        height: 100px;
+        margin-left: 70px;
+        
+    }
+    
+    #caja2 {
+        width: 400px;
+        height: 100px;
+        margin: 10px 10px;
+    }
+} /*fin @media 600 a 1023 px*/
+
+/*inicio @media 599px*/
+
+@media all and (max-width: 599px) {
+
+    header, footer, section, #seccion2 {
+        width: 100%;   
+    }
+
+    header {
+        height: 550px;
+    }
+    
+    section {
+        height: 1050px;
+    }
+    
+    #carouselExampleCaptions, #carouselExampleCaptions1 {
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+    
+    footer {
+        height: 300px;
+    }
+    
+    #nombre {
+        width: 400px;
+    }
+    
+    .titulos {
+        width: 350px;
+        margin-left: 40px; 
+    }
+    
+    .card, .accordion {
+        width: 70%;
+        margin-left: 40px; 
+    }
+    
+    .card {
+        margin-bottom: 20px;
+    }
+    
+    #caja1 {
+        width: 80px;
+        height: 100px;
+        margin-left: 50px;
+        
+    }
+    
+    #caja2 {
+        width: 280px;
+        height: 100px;
+        margin: 10px 10px;
+    }
+}/* fin @media 599px/*
+
+/*inicio @media 499px*/
+
+@media all and (max-width: 499px) {
+
+    header, footer, section, #seccion2 {
+        width: 370px;   
+    }
+
+    header {
+        height: 700px;
+    }
+    
+    section {
+        height: 1200px;
+    }
+    
+    #carouselExampleCaptions, #carouselExampleCaptions1 {
+        width: 250px;
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+    
+    footer {
+        height: 300px;
+    }
+    
+    #nombre {
+        width: 270px;
+
+    }
+    
+    .titulos {
+        width: 250px;
+        height: 65px;
+        margin-left: 40px;
+    }
+    
+    .card, .accordion {
+        width: 65%;
+        margin-left: 40px; 
+    }
+    
+    .card {
+        margin-bottom: 10px;
+    }
+    
+    #caja1 {
+        width: 70px;
+        height: 100px;
+        margin-left: 20px;
+        
+    }
+    
+    #caja2 {
+        width: 250px;
+        height: 100px;
+        margin: 10px 10px;
+    }
+}/* fin @media 499px/*
+
+
+
+
+
+
